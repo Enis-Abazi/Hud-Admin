@@ -205,7 +205,7 @@ color: rgba(60,210,165);
     left: 30px;
 }
 .left-header .row-left .col-left .btn-important a button { 
-    width: 150px;
+    width: 200px;
     padding: 12px 16px;
     font-size: 15px;
     border: 1px solid rgb(74, 248, 196);
@@ -1729,7 +1729,7 @@ position: relative;
 }
 #moved-1 { 
     position: relative;
-    left: 15px;
+    left: 0;
 }
 .mid .mid-big-row .col-mid-big .satistics .satistics-col .flexed-static ul h4::before  { 
     content: " ";
@@ -2279,4 +2279,27 @@ flex-basis: 25%;
     width: 2px;
     bottom: 1px;
     right: 0;
+}
+@media only screen and (min-width:1600px) and (max-width:1920px) { 
+    .mid .mid-big-row .col-mid-big { 
+        height: 56.4vh;
+    }
+    .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-top-bottom { 
+        top: -2px;
+    }
+    .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-left-bottom { 
+        top: -2px;
+    }
+    .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-left-top { 
+        top: -503px;
+    }
+    .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-top-right {
+        top: -503px;
+     }
+     .mid { 
+        left: 21%;
+     }
+     #top-products { 
+        height: 66.3vh;
+     }
 }
