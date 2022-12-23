@@ -1451,8 +1451,8 @@ position: relative;
     color: rgba(255,255,255,.8);
     width: 2px;
     height: 11px;
-    top: -456px;
-    left: -109px;
+    top: -460px;
+    left: -345px;
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-left-top::after { 
     content: " ";
@@ -1469,7 +1469,7 @@ position: relative;
     color: rgba(255,255,255,.8);
     width: 11px;
     height: 2px;
-    left: -109px;
+    left: -345px;
     top: 39px;
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-left-bottom::after { 
@@ -1488,8 +1488,9 @@ position: relative;
     color: rgba(255,255,255,.8);
     width: 2px;
     height: 11px;
-    right: -258px;
-    top: -456px;
+    right: -21px;
+    top: -461px;
+
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-top-right::after { 
     content: " ";
@@ -1506,7 +1507,7 @@ position: relative;
     color: rgba(255,255,255,.8);
     width: 11px;
     height: 2px;
-    right: -257px;
+    right: -22px;
     top: 39px;
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-top-bottom::after { 
