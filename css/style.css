@@ -1451,7 +1451,7 @@ position: relative;
     color: rgba(255,255,255,.8);
     width: 2px;
     height: 11px;
-    top: -460px;
+    top: -457px;
     left: -345px;
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-left-top::after { 
@@ -1489,7 +1489,7 @@ position: relative;
     width: 2px;
     height: 11px;
     right: -21px;
-    top: -461px;
+    top: -457px;
 
 }
 .mid .mid-big-row .col-mid-big .disk .col-disk .right .corners-mid .corner-top-right::after { 
