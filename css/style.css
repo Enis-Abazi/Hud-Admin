@@ -2281,6 +2281,16 @@ flex-basis: 25%;
     right: 0;
 }
 @media only screen and (min-width:1600px) and (max-width:1920px) { 
+    html , body { 
+        overflow-x: hidden;
+    }
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+    ::-webkit-scrollbar { 
+        display: none;
+    }
     .mid .mid-big-row .col-mid-big { 
         height: 56.4vh;
     }
